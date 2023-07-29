@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: hanken grotesk;
+}
+body {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(221, 100%, 96%);
+}
+.resultcard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  width: 650px;
+  background-color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-box {
+  width: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 400px;
+}
+.result {
+  color: #cac9ff;
+  font-size: 20px;
+  padding: 10px;
+}
+.score {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+}
+
+h2 {
+  color: white;
+}
+h6 {
+  color: #bdc7ff;
+}
+p {
+  color: #bdc7ff;
+  width: 87%;
+  margin: 0 auto;
+}
+.right-box {
+  width: 45%;
+  padding-top: 30px;
+}
+.title {
+  font-size: 20px;
+}
+.reaction-box {
+  width: 90%;
+  display: flex;
+  background: #fffbf4;
+  padding: 10px;
+  color: red;
+  font-family: 800;
+  gap: 10px;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+.memory-box {
+  width: 90%;
+  display: flex;
+  background: #fffbf4;
+  padding: 10px;
+  color: #e7be56;
+  font-family: 800;
+  gap: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.verbal-box {
+  width: 90%;
+  display: flex;
+  background: #caf5eb;
+  padding: 10px;
+  color: #00bd91;
+  font-family: 800;
+  gap: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.visual-box {
+  width: 90%;
+  display: flex;
+  background: #f3f4fd;
+  padding: 10px;
+  color: #1125d4;
+  font-family: 800;
+  gap: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+span {
+  width: 65%;
+  text-align: right;
+  color: black;
+}
+button {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-style: none;
+  padding: 15px;
+  background-color: #1125d4;
+  color: white;
+  font-weight: 800;
+  font-size: 17px;
+}
