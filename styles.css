@@ -128,4 +128,5 @@ button {
   color: white;
   font-weight: 800;
   font-size: 17px;
+  cursor: pointer;
 }
